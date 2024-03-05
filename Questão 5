@@ -1,0 +1,8 @@
+palavra = input('digite uma palavra')
+tam = len(palavra)
+nova_palavra = ''
+for i in range(len(palavra)):
+    tam = tam -1
+    troca = palavra[tam]
+    nova_palavra = nova_palavra + troca
+print (nova_palavra)
