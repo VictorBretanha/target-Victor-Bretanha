@@ -1,0 +1,19 @@
+a = 0
+b = 1
+c = int(input('Escolha um número: '))
+soma = 0
+ender = 0
+
+while (ender == 0):
+    if c == a or c == b:
+        print(f" {c} pertence à sequencia de fibonacci")
+        ender = 1
+    
+    if c <a or c < b:
+        print(f" {c} não pertence à sequencia de fibonacci")
+        ender = 1
+    
+    if c > a and c > b:
+        soma = a + b
+        a = b
+        b = soma
